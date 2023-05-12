@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.container header .logo {
+  width: 40px;
+}
+.container header ul li {
+  display: inline-block;
+  list-style: none;
+}
+.container header ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+}
+.container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.container .content .text {
+  width: 40%;
+  color: white;
+}
+.container .content .text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.container .content .text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.container .content .text a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.container .content .image {
+  width: 30%;
+}
+.container .content .image img {
+  width: 180px;
+}
+.container .icons {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50);
+}
+.container .icons img {
+  width: 60px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.container .icons img:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */
