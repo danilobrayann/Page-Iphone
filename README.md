@@ -1,7 +1,7 @@
 # Tela de uma pagina de Iphones
 <div align="center" max-width="600" max-height="600">
   <a href="https://page-iphone.vercel.app//" target="_blank">
-    <img width="600" src="imagem aquui">
+    <img width="600" src="img/iphone.png">
   </a>
 </div>
 
